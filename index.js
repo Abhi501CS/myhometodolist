@@ -23,7 +23,7 @@ app.listen(PORT, () => {
 });
 
 app.get('/', (req, res) => {    
-    res.send("Hello World GET");
+    res.send("Hello myhome todo list webapp");
 });
 
 // code to retreive items from ToDo model in mongoDB
