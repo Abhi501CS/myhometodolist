@@ -6,6 +6,7 @@ const app = express()
 
 const ToDo = require('./models/ToDo.model');
 
+const PORT = process.env.PORT | 8080
 
 app.use(express.json());
 
@@ -17,7 +18,7 @@ mongoose.connect("mongodb+srv://abhishiktvenkata:YYA3kMbqTdeuBnFG@myhomeprojectc
     console.log("Error: ", err);
 });
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log("Server is running on port 3000");
 });
 
