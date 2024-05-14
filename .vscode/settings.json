@@ -1,5 +1,10 @@
 {
     "appService.showBuildDuringDeployPrompt": false,
     "appService.defaultWebAppToDeploy": "/subscriptions/2cb1309d-23cb-4287-ba63-659b4f04de03/resourceGroups/homeproject/providers/Microsoft.Web/sites/homeprojecttodolist",
-    "appService.deploySubpath": "."
+    "appService.deploySubpath": ".",
+    "githubPullRequests.remotes": [
+        "origin",
+        "upstream",
+        "main"
+    ]
 }
